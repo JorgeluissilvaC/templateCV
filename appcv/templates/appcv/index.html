@@ -1,4 +1,4 @@
-{% load static %}
+{% load staticfilesfiles %}
 <!DOCTYPE html>
  <html lang="zxx">
 
@@ -18,21 +18,21 @@
 		<title>Yesid Hernández</title>
 
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="{% static 'img/favicon.ico'%}" />
+		<link rel="shortcut icon" href="{% staticfiles 'img/favicon.ico'%}" />
 
 		<!-- Google Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800" rel="stylesheet">
 		
 		<!-- Plugins -->
-		<link rel="stylesheet" href="{% static 'css/plugins.css'%}" />
+		<link rel="stylesheet" href="{% staticfiles 'css/plugins.css'%}" />
 
         <!-- Core Style Css -->
-        <link rel="stylesheet" href="{% static 'css/style.css'%}" />
+        <link rel="stylesheet" href="{% staticfiles 'css/style.css'%}" />
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
-        <script type="text/javascript" src="{% static 'js/jquery.min.js'%}"></script>
-        <script type="text/javascript" src="{% static 'js/translate.js'%}"></script>
+        <script type="text/javascript" src="{% staticfiles 'js/jquery.min.js'%}"></script>
+        <script type="text/javascript" src="{% staticfiles 'js/translate.js'%}"></script>
 
     </head>
 
@@ -85,8 +85,8 @@
 			        <a key="co" class="nav-link lang" href="#" data-scroll-nav="5">Contact</a>
 			      </li>
                   <li>
-                <img class="translate" id="es" style="width: 40px; height: 40px" src="{% static 'img/recursos/spanish.png'%}"> 
-                <img class="translate" id="en" style="width: 35px; height: 35px" src="{% static 'img/recursos/english.png'%}">
+                <img class="translate" id="es" style="width: 40px; height: 40px" src="{% staticfiles 'img/recursos/spanish.png'%}"> 
+                <img class="translate" id="en" style="width: 35px; height: 35px" src="{% staticfiles 'img/recursos/english.png'%}">
                   </li>
 			    </ul>
 			  </div>
@@ -100,7 +100,7 @@
     	<!-- =====================================
     	==== Start Header -->
         
-    	<header class="header valign bg-img" data-scroll-index="0" data-overlay-dark="6" data-background="{% static 'img/bg.jpg'%}" data-stellar-background-ratio="0.5">
+    	<header class="header valign bg-img" data-scroll-index="0" data-overlay-dark="6" data-background="{% staticfiles 'img/bg.jpg'%}" data-stellar-background-ratio="0.5">
 
             <div class="svg">
                 <svg x="0px" y="0px" viewBox="0 186.5 1920 113.5">
@@ -124,7 +124,7 @@
     		</div>
 
             <div class="arrow bounce" data-scroll-nav="1">
-                <img src="{% static 'img/down-chevron.svg'%}" alt="">
+                <img src="{% staticfiles 'img/down-chevron.svg'%}" alt="">
             </div>
 
     	</header>
@@ -141,7 +141,7 @@
                     
                     <div class="col-lg-5">
                         <div class="author-img">
-                            <img src="{% static 'img/hero.jpg'%}" alt="">
+                            <img src="{% staticfiles 'img/hero.jpg'%}" alt="">
                         </div>
                     </div>
 
@@ -263,13 +263,13 @@
                         <!-- gallery item -->
                         <div class="col-md-4 col-lg-4 items gplay">
                             <div class="item-img">
-                                <img style="width: 100%;height:270px " src="{% static 'img/portfolio/a.jpg'%}" alt="image">
+                                <img style="width: 100%;height:270px " src="{% staticfiles 'img/portfolio/a.jpg'%}" alt="image">
                                 <div class="item-img-overlay valign">
                                     <div class="overlay-info full-width vertical-center">
                                         <h6>Geometric Rush</h6>
                                         <p>Dreams S.A.S Casual</p>
                                         <a class="overlay-info full-width vertical-center" href="https://play.google.com/store/apps/details?id=com.Dreams.GeometricRush" target="_blank">
-                                        <img style="width: 130px;" src="{% static 'img/recursos/google-play-badgeee.png'%}">
+                                        <img style="width: 130px;" src="{% staticfiles 'img/recursos/google-play-badgeee.png'%}">
                                         </a>
                                     </div>
                                     <a href="img/portfolio/a.jpg" class="popimg">
@@ -282,16 +282,16 @@
                         <!-- gallery item -->
                         <div class="col-md-4 col-lg-4 items gplay">
                             <div class="item-img">
-                                <img style="width: 100%;height:270px " src="{% static 'img/portfolio/b.jpg'%}" alt="image">
+                                <img style="width: 100%;height:270px " src="{% staticfiles 'img/portfolio/b.jpg'%}" alt="image">
                                 <div class="item-img-overlay valign">
                                     <div class="overlay-info full-width vertical-center">
                                         <h6>Gaby's Design</h6>
                                         <p>Dreams S.A.S Belleza</p>
                                         <a class="overlay-info full-width vertical-center" href="https://play.google.com/store/apps/details?id=com.Dreams.GabysDesign" target="_blank">
-                                        <img style="width: 130px;" src="{% static 'img/recursos/google-play-badgeee.png'%}">
+                                        <img style="width: 130px;" src="{% staticfiles 'img/recursos/google-play-badgeee.png'%}">
                                         </a>
                                     </div>
-                                    <a href="{% static 'img/portfolio/b.jpg'%}" class="popimg">
+                                    <a href="{% staticfiles 'img/portfolio/b.jpg'%}" class="popimg">
                                         <i class="fas fa-images"></i>
                                     </a>
                                 </div>
@@ -301,16 +301,16 @@
                         <!-- gallery item -->
                         <div class="col-md-4 col-lg-4 items gplay">
                             <div class="item-img">
-                                <img style="width: 100%;height:270px" src="{% static 'img/portfolio/c.jpg'%}" alt="image">
+                                <img style="width: 100%;height:270px" src="{% staticfiles 'img/portfolio/c.jpg'%}" alt="image">
                                 <div class="item-img-overlay valign">
                                     <div class="overlay-info full-width vertical-center">
                                         <h6>Crazy Circle</h6>
                                         <p>Dreams S.A.S Arcade</p>
                                         <a class="overlay-info full-width vertical-center" href="https://play.google.com/store/apps/details?id=com.Dreams.CrazyCircle" target="_blank">
-                                        <img style="width: 130px;" src="{% static 'img/recursos/google-play-badgeee.png'%}">
+                                        <img style="width: 130px;" src="{% staticfiles 'img/recursos/google-play-badgeee.png'%}">
                                         </a>
                                     </div>
-                                    <a href="{% static 'img/portfolio/c.jpg'%}" class="popimg">
+                                    <a href="{% staticfiles 'img/portfolio/c.jpg'%}" class="popimg">
                                         <i class="fas fa-images"></i>
                                     </a>
                                 </div>
@@ -320,16 +320,16 @@
                         <!-- gallery item -->
                         <div class="col-md-4 col-lg-4 items gplay">
                             <div class="item-img">
-                                <img style="width: 100%;height:270px" src="{% static 'img/portfolio/d.jpg'%}" alt="image">
+                                <img style="width: 100%;height:270px" src="{% staticfiles 'img/portfolio/d.jpg'%}" alt="image">
                                 <div class="item-img-overlay valign">
                                     <div class="overlay-info full-width vertical-center">
                                         <h6>Super Asteroids</h6>
                                         <p>Dreams S.A.S Arcade</p>
                                         <a class="overlay-info full-width vertical-center" href="https://play.google.com/store/apps/details?id=com.Sinergy.SuperAsteroids" target="_blank">
-                                        <img style="width: 130px;" src="{% static 'img/recursos/google-play-badgeee.png'%}">
+                                        <img style="width: 130px;" src="{% staticfiles 'img/recursos/google-play-badgeee.png'%}">
                                         </a>
                                     </div>
-                                    <a href="{% static 'img/portfolio/d.jpg'%}" class="popimg">
+                                    <a href="{% staticfiles 'img/portfolio/d.jpg'%}" class="popimg">
                                         <i class="fas fa-images"></i>
                                     </a>
                                 </div>
@@ -339,16 +339,16 @@
                         <!-- gallery item -->
                         <div class="col-md-4 col-lg-4 items gplay">
                             <div class="item-img">
-                                <img style="width: 100%;height:270px" src="{% static 'img/portfolio/e.jpg'%}" alt="image">
+                                <img style="width: 100%;height:270px" src="{% staticfiles 'img/portfolio/e.jpg'%}" alt="image">
                                 <div class="item-img-overlay valign">
                                     <div class="overlay-info full-width vertical-center">
                                         <h6>Tic Tac Toe</h6>
                                         <p>Dreams S.A.S Juegos de mesa</p>
                                         <a class="overlay-info full-width vertical-center" href="https://play.google.com/store/apps/details?id=com.Dreams.TicTacToe" target="_blank">
-                                        <img style="width: 130px;" src="{% static 'img/recursos/google-play-badgeee.png'%}">
+                                        <img style="width: 130px;" src="{% staticfiles 'img/recursos/google-play-badgeee.png'%}">
                                         </a>
                                     </div>
-                                    <a href="{% static 'img/portfolio/e.jpg'%}" class="popimg">
+                                    <a href="{% staticfiles 'img/portfolio/e.jpg'%}" class="popimg">
                                         <i class="fas fa-images"></i>
                                     </a>
                                 </div>
@@ -358,16 +358,16 @@
                         <!-- gallery item -->
                         <div class="col-md-4 col-lg-4 items gplay">
                             <div class="item-img">
-                                <img style="width: 100%;height:270px" src="{% static 'img/portfolio/f.jpg'%}" alt="image">
+                                <img style="width: 100%;height:270px" src="{% staticfiles 'img/portfolio/f.jpg'%}" alt="image">
                                 <div class="item-img-overlay valign">
                                     <div class="overlay-info full-width vertical-center">
                                         <h6>America's Next Top Model</h6>
                                         <p>Game: Full Edition</p>                                        
                                         <a class="overlay-info full-width vertical-center" href="https://play.google.com/store/apps/details?id=com.Emortal.AntmFullGame" target="_blank">
-                                        <img style="width: 130px;" src="{% static 'img/recursos/google-play-badgeee.png'%}">
+                                        <img style="width: 130px;" src="{% staticfiles 'img/recursos/google-play-badgeee.png'%}">
                                         </a> 
                                     </div>
-                                    <a href="{% static 'img/portfolio/f.jpg'%}" class="popimg">
+                                    <a href="{% staticfiles 'img/portfolio/f.jpg'%}" class="popimg">
                                         <i class="fas fa-images"></i>
                                     </a>
                                 </div>
@@ -377,16 +377,16 @@
                         <!-- gallery item -->
                         <div class="col-md-4 col-lg-4 items astore">
                             <div class="item-img">
-                                <img style="width: 100%;height:270px" src="{% static 'img/portfolio/f.jpg'%}" alt="image">
+                                <img style="width: 100%;height:270px" src="{% staticfiles 'img/portfolio/f.jpg'%}" alt="image">
                                 <div class="item-img-overlay valign">
                                     <div class="overlay-info full-width vertical-center">
                                         <h6>America's Next Top Model</h6>
                                         <p>Game: Full Edition</p>                                       
                                         <a class="overlay-info full-width vertical-center" href="https://www.apple.com/co/iphone/" target="_blank">
-                                        <img style="width: 130px;" src="{% static 'img/recursos/btn_app_storee.jpg'%} ">
+                                        <img style="width: 130px;" src="{% staticfiles 'img/recursos/btn_app_storee.jpg'%} ">
                                         </a> 
                                     </div>
-                                    <a href="{% static 'img/portfolio/f.jpg'%}" class="popimg">
+                                    <a href="{% staticfiles 'img/portfolio/f.jpg'%}" class="popimg">
                                         <i class="fas fa-images"></i>
                                     </a>
                                 </div>
@@ -396,16 +396,16 @@
                         <!-- gallery item -->
                         <div class="col-md-4 col-lg-4 items psteam">
                             <div class="item-img">
-                                <img style="width: 100%;height:270px " src="{% static 'img/portfolio/a.jpg'%}" alt="image">
+                                <img style="width: 100%;height:270px " src="{% staticfiles 'img/portfolio/a.jpg'%}" alt="image">
                                 <div class="item-img-overlay valign">
                                     <div class="overlay-info full-width vertical-center">
                                         <h6>Geometric Rush</h6>
                                         <p>Dreams S.A.S Casual</p>
                                         <a class="overlay-info full-width vertical-center" href="https://store.steampowered.com/?l=spanish" target="_blank">
-                                        <img style="width: 130px;" src="{% static 'img/recursos/steamm.jpg'%}">
+                                        <img style="width: 130px;" src="{% staticfiles 'img/recursos/steamm.jpg'%}">
                                         </a>
                                     </div>
-                                    <a href="{% static 'img/portfolio/a.jpg'%}" class="popimg">
+                                    <a href="{% staticfiles 'img/portfolio/a.jpg'%}" class="popimg">
                                         <i class="fas fa-images"></i>
                                     </a>
                                 </div>
@@ -522,38 +522,38 @@
 
        
         <!-- jQuery -->
-        <script src="{% static 'js/jquery-3.0.0.min.js'%}"></script>
-        <script src="{% static 'js/jquery-migrate-3.0.0.min.js'%}"></script>
+        <script src="{% staticfiles 'js/jquery-3.0.0.min.js'%}"></script>
+        <script src="{% staticfiles 'js/jquery-migrate-3.0.0.min.js'%}"></script>
 
         <!-- popper.min -->
-        <script src="{% static 'js/popper.min.js'%}"></script>
+        <script src="{% staticfiles 'js/popper.min.js'%}"></script>
 
         <!-- bootstrap -->
-        <script src="{% static 'js/bootstrap.min.js'%}"></script>
+        <script src="{% staticfiles 'js/bootstrap.min.js'%}"></script>
 
         <!-- scrollIt -->
-        <script src="{% static 'js/scrollIt.min.js'%}"></script>
+        <script src="{% staticfiles 'js/scrollIt.min.js'%}"></script>
 
         <!-- owl carousel -->
-        <script src="{% static 'js/owl.carousel.min.js'%}"></script>
+        <script src="{% staticfiles 'js/owl.carousel.min.js'%}"></script>
 
         <!-- animated.headline -->
-        <script src="{% static 'js/animated.headline.js'%}"></script>
+        <script src="{% staticfiles 'js/animated.headline.js'%}"></script>
 
         <!-- jquery.magnific-popup js -->
-        <script src="{% static 'js/jquery.magnific-popup.min.js'%}"></script>
+        <script src="{% staticfiles 'js/jquery.magnific-popup.min.js'%}"></script>
 
         <!-- stellar js -->
-        <script src="{% static 'js/jquery.stellar.min.js'%}"></script>
+        <script src="{% staticfiles 'js/jquery.stellar.min.js'%}"></script>
 
         <!-- isotope.pkgd.min js -->
-        <script src="{% static 'js/isotope.pkgd.min.js'%}"></script>
+        <script src="{% staticfiles 'js/isotope.pkgd.min.js'%}"></script>
 
         <!-- validator js -->
-        <script src="{% static 'js/validator.js'%}"></script>
+        <script src="{% staticfiles 'js/validator.js'%}"></script>
 
         <!-- custom scripts -->
-        <script src="{% static 'js/scripts.js'%}"></script>
+        <script src="{% staticfiles 'js/scripts.js'%}"></script>
 
     </body>
 
