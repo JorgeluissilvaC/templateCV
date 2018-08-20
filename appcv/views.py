@@ -25,7 +25,7 @@ def index(request):
         message += 'Asunto: '+subject +'\n'
         message += 'Mensaje: ' +request.POST.get('message')
         
-        dest = 'jesusturizocorrea@gmail.com'
+        dest = 'yesidsamir1992@hotmail.com'
 
         sendemail(from_addr    = dest, to_addr_list = [dest],   cc_addr_list = [dest], subject = subject, message= message,login= 'javidjesud19912018@gmail.com', password= 'j3103527722')
     return render(request, 'appcv/index.html', {})
